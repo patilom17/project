@@ -1,0 +1,121 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.icons {
+    margin-left: 1200px;
+}
+
+.mainpage {
+    display: flex;
+}
+.mainpage, img{
+    padding: 0px 5px;
+}
+i{
+    padding: 12px;
+    margin: 5px;
+}
+
+.heading {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    padding: 20px;
+    margin: 40px;
+    font-family: Montserrat;
+     font-weight: lighter;
+    font-size: 35px;
+}
+
+h4 {
+    padding: 20px;
+    margin: 40px;
+    font-family: Montserrat;
+  
+
+}
+.imagecontainer{
+    display: inline-block;
+    padding-bottom: 40px;
+    margin: 30px;
+}
+.text, h4{
+    padding: 5px;
+    margin: 7px;
+    font-family: Montserrat;
+    
+}
+button{
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    font-family: Montserrat;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+   
+    border: 1px white solid;
+ }
+ .footer{
+    color: white;
+   padding: 100px;
+   background-color: black;
+
+}
+.footermain{
+    padding: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    margin: 10px;
+    text-decoration: underline;
+    font-family:Montserrat;
+}
+.footerlogo{
+    margin: 40px;
+}
+.powdered{
+     margin-left: 46%;
+     font-family:Montserrat;
+     text-decoration: underline;
+}
+.button:hover{
+    transform: scale(1.10);
+    background-color: rgba(0, 0, 0, 0.274);
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+.imagecontainer:hover{
+    transform: scale(1.10);
+    transition: 0.4s;
+
+}
+.trolleyhead{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+.trolleyhead:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    
+}

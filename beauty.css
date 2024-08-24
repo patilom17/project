@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.icons{
+    margin-left: 1200px;
+}
+i{
+    padding: 12px;
+    margin: 5px;
+     
+}
+.heading, h1{
+    padding: 20px;
+    margin: 10x;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: lighter;
+}
+.heading2{
+    padding:  30px 600px;
+    font-family: Montserrat;
+}
+.heading2,h2{
+    padding-bottom: 20px;
+    font-family: Montserrat;
+}
+.imagecontainer{
+    padding: 40px 140px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.text, h4{
+    font-family: Montserrat;
+    padding: 20px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+button{
+    padding: 10px 40px;
+    margin: 10px;
+    font-family: Montserrat;
+    background-color: black;
+    color: white;
+}
+.imagecontainer,img:hover{
+    transform: scale(1.07);
+    transition: 0.4s;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.384);
+    color: black;
+    transition: 0.4s;
+}
+.footer{
+    color: white;
+   padding: 100px;
+   background-color: black;
+
+}
+.footermain{
+    padding: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    margin: 10px;
+    text-decoration: underline;
+    font-family:Montserrat;
+}
+.footerlogo{
+    margin: 40px;
+}
+.powdered{
+     margin-left: 46%;
+     font-family:Montserrat;
+     text-decoration: underline;
+}
+
